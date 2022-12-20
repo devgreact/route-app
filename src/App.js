@@ -53,7 +53,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename="route-app">
       <div className="container">
         <Header />
         <Routes>
