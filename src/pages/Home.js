@@ -10,7 +10,7 @@ const Home = () => {
   // console.log(location);
   // location.state       { from : "/member"}
   const state = location.state;
-  const from  = state ? state.from: "";
+  const from = state ? state.from : "";
 
   return (
     <div className="card card-body">

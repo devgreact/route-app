@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     "/api",
     createProxyMiddleware({
-      target: "http://192.168.0.144:9944",
+      target: "https://devgreact.github.io/route-app/",
       changeOrigin: true,
       pathRewrite: {
         "^/api": "",
